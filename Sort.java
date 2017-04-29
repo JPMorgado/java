@@ -10,7 +10,7 @@ public class Sort {
 			vetor[i] = leia.nextInt(); 		
 		}
 		for(int i=0;i<20;i++){
-			for(int j=1;j<20;j++){
+			for(int j=0;j<20;j++){
 				if(vetor[j]>vetor[i]){
 					 int k = vetor[i];
 					 vetor[i]=vetor[j];
